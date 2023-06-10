@@ -11,7 +11,7 @@ body{
 }
 
 
-
+/* nav-section begins here */
 .navbar{
     display: flex;
     justify-content: space-around;
@@ -64,6 +64,9 @@ body{
     color: #747474;
     padding-left: 5px;
 }
+/* nav-section ends here */
+
+/* second-section begins here */
 .second-section{
     display: flex;
     justify-content: center;
@@ -74,6 +77,10 @@ body{
     width: 4%;
     
 }
+/* second-section ends here */
+
+
+/* third-section begins here */
 .third h1{
     text-align: center;
     color: #00ccb1; 
@@ -81,6 +88,9 @@ body{
     padding: 30px 0;
     font-family: Work Sans, Arial, sans-serif;
 }
+/* third-section ends here */
+
+/* fourth-section begins here */
 .fourth-text{
     display: flex;
     justify-content:space-around;
@@ -95,6 +105,9 @@ body{
     font-weight: 300;
     color: #747474;
 }
+/* fourth-section ends here */
+
+/* fifth-section begins here */
 .fifth-content1{
     display: flex;
     /* border: 3px solid blue; */
@@ -213,6 +226,10 @@ body{
     font-size: 20px;
     color: #fff;
 }
+/* fifth-section ends here */
+
+
+/* global-section begins here */
 .global-content{
     display: flex;
     justify-content: center;
@@ -239,6 +256,10 @@ body{
     
     
 }
+/* global-section ends here */
+
+
+/* world-section begins here */
 .world{
     background-color: #d0faf4;
     /* margin: 0 auto; */
@@ -251,13 +272,13 @@ body{
     /* width: 100%; */
 }
 .world-text img{
-    /* padding-top: 100%; */
-    height: 400px;
+    padding-top: 15%;
+    height: 470px;
     width: 100%;
 }
 
 .world-text h2{
-    padding-top: 30%;
+    padding-top: 15%;
     font-size: 30px;
     font-weight: 300;
     font-family: Work Sans, Arial, sans-serif;
@@ -337,6 +358,9 @@ body{
     font-family: sans-serif;
     font-weight: 400;
 }
+/* world-section ends here */
+
+/* improve-section begins here */
 .improve-text{
     text-align: center;
 }
@@ -347,7 +371,7 @@ body{
     padding-top: 10%;
     font-family: Work Sans, Arial, sans-serif;   
 }
-.improve-text H6{
+.improve-text h6{
     padding-top: 3%;
     font-size: 14px;
     color: #747474;
@@ -368,6 +392,10 @@ body{
 .improve-img{
     margin-left: 10px;
    
+}
+.improve-img:hover{
+    box-shadow: 0 -6px 10px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
 }
 .btn{
     display: flex;
@@ -394,6 +422,10 @@ body{
     cursor: pointer;
     
 }
+/* improve-section ends here */
+
+
+/* footer-section begins here */
 .footer{
     text-align: center;
 }
@@ -461,6 +493,7 @@ body{
     font-weight: 200;
     font-family: sans-serif;
 }
+/* footer-section ends here */
 
 
  
